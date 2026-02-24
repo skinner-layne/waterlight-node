@@ -1,0 +1,38 @@
+{
+  "name": "waterlight",
+  "version": "0.2.1",
+  "description": "OpenAI-compatible SDK for the Waterlight API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run --exclude dist",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "openai",
+    "waterlight",
+    "ai",
+    "llm",
+    "sdk",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "Waterlight Research",
+  "homepage": "https://waterlight.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waterlight-ai/waterlight-node"
+  }
+}
